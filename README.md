@@ -42,22 +42,3 @@ project/
 
 **reports/**
 - Результаты анализа в различных форматах
-
-
-## Структура репозитория
-
-project/
-├── notebooks/ # Jupyter-ноутбуки с анализом
-│ ├── Linguistic_automatic_analysis.ipynb # Автоматический подсчет метрик и визуализация
-│ └── Statistical_analysis.ipynb # Статистический анализ метрик
-│
-├── data/ # Исходные данные и словари
-│ ├── interview_metrics_dataset.csv # Таблица с числовыми данными метрик
-│ ├── ruscorpora_content.csv # Частотность слов НКРЯ
-│ └── Slovar.r.ya..s.indeksom.konkretnosti.slov.xlsx # Словарь конкретности слов
-│
-├── reports/ # Результаты анализа
-│ ├── figures/ # Графики и визуализации
-│ └── report/ # Аналитический отчет
-│
-└── README.md # Описание проекта
