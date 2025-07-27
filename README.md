@@ -11,15 +11,19 @@
 Анализ проводится на основе двух текстов интервью с применением современных методов обработки естественного языка (NLP).
 
 ## Структура репозитория
+
 project/
-├── notebooks
-│ ├──Linguistic automatic analysis.ipynb # Код с автоматическим подсчетом метрик и визуализацией
-│ ├── Statistical analysis.ipynb # Подсчет статистики для полученных метрик, визуализация
-│ ├──data
-│ ├── interview_metrics_dataset.csv # Таблица с полученными числовыми данными метрик для статистического анализа
-│ ├── ruscorpora_content.csv # Таблица с частотностью слов НКРЯ (для подсчета частотности слов из текстов интервью)
-│ ├── Slovar.r.ya..s.indeksom.konkretnosti.slov.xlsx # Таблица с индексами конкретности слов (для подсчета Certainty vs uncertainty markers)
-├── reports # Результаты анализа
-│ ├── figures # Визуализации
-│ └── report # Аналитический отчет
-└── README.md # Этот файл
+├── notebooks/ # Jupyter-ноутбуки с анализом
+│ ├── Linguistic_automatic_analysis.ipynb # Автоматический подсчет метрик и визуализация
+│ └── Statistical_analysis.ipynb # Статистический анализ метрик
+│
+├── data/ # Исходные данные и словари
+│ ├── interview_metrics_dataset.csv # Таблица с числовыми данными метрик
+│ ├── ruscorpora_content.csv # Частотность слов НКРЯ
+│ └── Slovar.r.ya..s.indeksom.konkretnosti.slov.xlsx # Словарь конкретности слов
+│
+├── reports/ # Результаты анализа
+│ ├── figures/ # Графики и визуализации
+│ └── report/ # Аналитический отчет
+│
+└── README.md # Описание проекта
