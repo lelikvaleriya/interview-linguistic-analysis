@@ -10,6 +10,38 @@
 
 Анализ проводится на основе двух текстов интервью с применением современных методов обработки естественного языка (NLP).
 
+
+# Психолингвистический анализ интервью
+
+## Структура репозитория
+.
+├── notebooks/
+│ ├── Linguistic_automatic_analysis.ipynb
+│ └── Statistical_analysis.ipynb
+├── data/
+│ ├── interview_metrics_dataset.csv
+│ ├── ruscorpora_content.csv
+│ └── Slovar.r.ya..s.indeksom.konkretnosti.slov.xlsx
+├── reports/
+│ ├── figures/
+│ └── report/
+└── README.md
+
+text
+
+### Описание структуры
+
+**notebooks/**
+- `Linguistic_automatic_analysis.ipynb` - автоматический расчет лингвистических метрик
+- `Statistical_analysis.ipynb` - статистический анализ результатов
+
+**data/**
+- Основные файлы данных и словари для анализа
+
+**reports/**
+- Результаты анализа в различных форматах
+
+
 ## Структура репозитория
 
 project/
