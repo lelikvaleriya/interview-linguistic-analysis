@@ -14,20 +14,22 @@
 # Психолингвистический анализ интервью
 
 ## Структура репозитория
-.
-├── notebooks/
-│ ├── Linguistic_automatic_analysis.ipynb
-│ └── Statistical_analysis.ipynb
-├── data/
-│ ├── interview_metrics_dataset.csv
-│ ├── ruscorpora_content.csv
-│ └── Slovar.r.ya..s.indeksom.konkretnosti.slov.xlsx
-├── reports/
-│ ├── figures/
-│ └── report/
-└── README.md
+# Структура репозитория
 
-text
+```tree
+project/
+├── notebooks/
+│   ├── Linguistic_automatic_analysis.ipynb
+│   └── Statistical_analysis.ipynb
+├── data/
+│   ├── interview_metrics_dataset.csv
+│   ├── ruscorpora_content.csv
+│   └── Slovar.r.ya..s.indeksom.konkretnosti.slov.xlsx
+├── reports/
+│   ├── figures/
+│   └── report/
+└── README.md
+```
 
 ### Описание структуры
 
