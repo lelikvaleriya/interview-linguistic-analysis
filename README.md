@@ -23,19 +23,24 @@ project/
 │   ├── ruscorpora_content.csv
 │   └── Slovar.r.ya..s.indeksom.konkretnosti.slov.xlsx
 ├── reports/
+│   ├── report/
 │   ├── figures/
-│   └── report/
+│   ├── metrics_table/
+│   └── methodology/
 └── README.md
 ```
 
 ### Описание структуры
 
 **notebooks/**
-- `Linguistic_automatic_analysis.ipynb` - автоматический расчет лингвистических метрик
+- `Linguistic_automatic_analysis.ipynb` - автоматический расчет лингвистических метрик (**Код анализа с комментариями/**)
 - `Statistical_analysis.ipynb` - статистический анализ результатов
 
 **data/**
 - Основные файлы данных и словари для анализа
 
 **reports/**
-- Результаты анализа в различных форматах
+- report - **Аналитический отчет с результатами анализа/**
+- figures - **Визуализации основных находок/**
+- metrics_table - **Таблица метрик в структурированном виде/**
+- methodology - **Методологические рекомендации для масштабирования подхода/**
