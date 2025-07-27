@@ -23,10 +23,10 @@ project/
 │   ├── ruscorpora_content.csv
 │   └── Slovar.r.ya..s.indeksom.konkretnosti.slov.xlsx
 ├── reports/
-│   ├── report/
-│   ├── figures/
-│   ├── metrics_table/
-│   └── methodology/
+│   ├── report
+│   ├── figures
+│   ├── metrics_table
+│   └── methodology
 └── README.md
 ```
 
