@@ -33,7 +33,7 @@ project/
 ### Описание структуры
 
 **notebooks/**
-- `Linguistic_automatic_analysis.ipynb` - автоматический расчет лингвистических метрик (**Код анализа с комментариями/**)
+- `Linguistic_automatic_analysis.ipynb` - автоматический расчет лингвистических метрик (**Код анализа с комментариями**)
 - `Statistical_analysis.ipynb` - статистический анализ результатов
 
 **data/**
