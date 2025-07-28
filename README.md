@@ -25,7 +25,7 @@ project/
 ├── reports/
 │   ├── report
 │   ├── figures
-│   ├── metrics_table
+│   ├── Metrics_list_structured.xlsx
 │   └── methodology
 └── README.md
 ```
