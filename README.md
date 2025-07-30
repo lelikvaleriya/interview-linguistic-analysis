@@ -23,10 +23,8 @@ project/
 │   ├── ruscorpora_content.csv
 │   └── Slovar.r.ya..s.indeksom.konkretnosti.slov.xlsx
 ├── reports/
-│   ├── report
-│   ├── figures
-│   ├── Metrics_list_structured.xlsx
-│   └── methodology
+│   ├── report_analytics.pdf
+│   └── Metrics_list_structured.xlsx
 └── README.md
 ```
 
@@ -40,7 +38,5 @@ project/
 - Основные файлы данных и словари для анализа
 
 **reports/**
-- report - **Аналитический отчет с результатами анализа**
-- figures - **Визуализации основных находок**
+- report_analytics.pdf - **Аналитический отчет с результатами анализа, содержит визуализации основных находок и методологические рекомендации для масштабирования подхода**
 - Metrics_list_structured.xlsx - **Таблица метрик в структурированном виде**
-- methodology - **Методологические рекомендации для масштабирования подхода**
